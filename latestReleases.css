@@ -1,0 +1,99 @@
+.card-body {
+    text-align: center !important
+}
+
+.card {
+    margin: auto !important;
+    /* border-radius: 10px !important; */
+    overflow: hidden;
+    margin-top: 50px !important;
+    /* background: rgba(218, 218, 163, 0.205) !important; */
+    border: 4px solid rgba(73, 244, 184, 0.913);
+    border: 4px solid rgb(68, 54, 139);
+    border: 1px solid black;
+    
+  
+
+    box-shadow: 10px 9px rgba(59, 111, 208, 0.913);
+    height: auto!
+
+}
+
+.card-img-top {
+    width: 50%;
+    height: 140px; 
+    object-fit: cover;
+    border-radius: 50%;
+    margin: auto;
+    margin-top: 5px !important;
+}
+
+.card-img-top:hover {
+    height: 180px; 
+    width: 60%;
+}
+
+#cardsContainer {
+    width: 100%;
+    max-width: 850px;
+    display: flex;
+    margin: auto;
+    flex-direction: row; 
+    margin-bottom: 80px;
+}
+
+#cardsContainer2 {
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    margin: auto;
+    flex-direction: row; 
+    margin-bottom: 80px;
+}
+
+.card-title {
+    text-align: center;
+    font-size: 26px !important;
+    /* text-decoration: underline !important; */
+    /* text-decoration-color: rgba(156, 197, 209, 0.913) !important; */
+
+    /* text-decoration-color: rgba(207, 156, 209, 0.913) !important; */
+    /* text-decoration-color: rgba(73, 244, 184, 0.913) !important; */
+    margin-top: 10px !important;
+    color: rgba(10, 20, 39, 0.913) !important;
+    color: rgba(59, 111, 208, 0.913) !important;
+}
+
+#chairsText {
+    margin: auto;
+    text-align: center;
+    font-size: 50px;
+    /* text-decoration: underline; */
+    /* text-decoration-color: rgba(59, 111, 208, 0.253); */
+    /* text-decoration-style: dashed; */
+    /* min-width: 1000px; */
+    /* padding-left: 250px; */
+    /* margin-top: 100px; */
+}
+
+#mainContainer {
+    /* max-width: 1100px; */
+    display: flex;
+    flex-direction: column;
+} 
+
+.card-text {
+    font-size: 14px;
+}
+
+.card-text:hover {
+    font-size: 16px;
+}
+
+
+
+@media only screen and (max-width: 800px) {
+    #cardsContainer {
+        flex-direction: column; 
+    }
+}
