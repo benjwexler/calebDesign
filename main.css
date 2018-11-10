@@ -7,16 +7,18 @@ body {
     background: white !important;
     font-family: 'Spicy Rice', cursive;
     /* border-bottom: 2px solid blue; */
-    /* border-bottom: 33px solid rgb(0, 0, 0); */
+    border-bottom: 3px solid rgb(26, 21, 85);
     font-family: 'Ubuntu', sans-serif;
     /* text-shadow: 2px 2px 2px rgba(150, 150, 150, 0.144); */
-    /* color: rgb(83, 45, 221)  !important; */
+    color: rgb(83, 45, 221)  !important;
+    color: rgba(45, 51, 221, 0.747)  !important;
     position: fixed;
     top: 0;
     width: 100%;
     font-family: 'Spicy Rice', cursive;
     font-family: 'Acme', sans-serif, cursive;
     font-family: 'Righteous', cursive;
+    z-index: 999999;
     /* font-family: 'Abril Fatface', cursive; */
 
 }
@@ -79,9 +81,11 @@ body {
 #section2 {
     height: 100vh;
     width: 100%;
-    border: 2px solid black;
+    /* border: 2px solid black; */
     /* background-image: linear-gradient(white, rgba(63, 25, 199, 0.432)); */
     background-image: linear-gradient(white, rgba(48, 199, 197, 0.418) 25% );
+    /* overflow: hidden; */
+
      
 }
 
