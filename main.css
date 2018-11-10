@@ -117,7 +117,7 @@ body {
     #section1 {
 
         height: 84vh;
-        object-fit: none;
+        /* object-fit: none; */
         /* height: 85vh; */
     }
 
