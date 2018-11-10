@@ -102,4 +102,12 @@ body {
     text-align: center;
     font-size: 40px;
     margin-top: 50px;
+   
+}
+
+@media only screen and (max-height: 880px) {
+    #section1 {
+
+        height: 100vh;
+    }
 }
