@@ -23,9 +23,9 @@ body {
 
 }
 
-.navbar:hover {
+/* .navbar:hover {
     color: purple !important;
-}
+} */
 
 #section1outerContainer {
      height: 100vh;
@@ -116,7 +116,7 @@ body {
 @media only screen and (max-width: 600px) {
     #section1 {
 
-        height: 55vh;
+        height: 84vh;
         object-fit: none;
         /* height: 85vh; */
     }

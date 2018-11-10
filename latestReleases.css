@@ -21,6 +21,7 @@
     padding-bottom: 20px;
     /* background: rgba(151, 241, 243, 0.055); */
     /* background: yellow; */
+    margin-bottom: 50px !important;
     
 
 }
@@ -112,6 +113,8 @@
 @media only screen and (max-width: 800px) {
     #cardsContainer {
         flex-direction: column; 
+        margin-bottom: 0px;
+
     }
 }
 
@@ -121,4 +124,18 @@
     .card {
         margin-top: 0px !important;
     }
+
+    
+}
+
+@media only screen and (max-width: 360px) {
+
+
+   .navbar-toggler-icon {
+       width: 1.3em !important;
+       height: 1.3em !important
+   }
+   #logoText {
+    font-size: 15px;
+}
 }
