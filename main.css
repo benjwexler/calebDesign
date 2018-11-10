@@ -109,5 +109,16 @@ body {
     #section1 {
 
         height: 100vh;
+        /* height: 85vh; */
     }
+}
+
+@media only screen and (max-width: 600px) {
+    #section1 {
+
+        height: 55vh;
+        object-fit: none;
+        /* height: 85vh; */
+    }
+
 }
