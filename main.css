@@ -1,0 +1,92 @@
+body {
+    background: black;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.navbar {
+    background: white !important;
+    font-family: 'Spicy Rice', cursive;
+    /* border-bottom: 2px solid blue; */
+    /* border-bottom: 33px solid rgb(0, 0, 0); */
+    font-family: 'Ubuntu', sans-serif;
+    text-shadow: 2px 2px 2px rgba(150, 150, 150, 0.144);
+    
+    position: fixed;
+    top: 0;
+    width: 100%;
+
+}
+
+.navbar:hover {
+    color: purple !important;
+}
+
+#section1outerContainer {
+     height: 100vh;
+    width: 100%;
+}
+
+#section1 {
+
+    height: 100vh;
+    width: 100%;
+    background-image: url("calebPlayingGuitar1.jpg");
+    object-fit: cover;
+
+    background-repeat: no-repeat;
+    background: url("calebPlayingGuitar1.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    /* border: 1px solid yellow; */
+    display: flex;
+    flex-direction: column;
+    /* margin: auto;
+    margin-left: 250px; */
+}
+
+.section1row {
+    height: 25%;
+    width: 100%;
+    /* border: 1px solid yellow; */
+    margin: auto;
+    /* margin-left: 20%; */
+    font-size: 50px;
+    font-family: 'Varela Round', sans-serif;
+}
+
+#section1BigText {
+    height: 100%;
+    width: 100%;
+    color: white;
+    margin: auto;
+    text-align: center;
+    /* margin-left: 20%; */
+    
+}
+
+#section1BigTextOuterContainer {
+    width: 75%;
+    /* width: auto; */
+
+}
+
+#section2 {
+    height: 100vh;
+    width: 100%;
+    border: 2px solid black;
+     
+}
+
+#section2title {
+    width: 100%;
+    height: 20%;
+    background: white;
+    background: black;
+    /* color: black; */
+    color:  white;
+    text-align: center;
+    font-size: 40px;
+    margin-top: 50px;
+}
