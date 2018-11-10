@@ -7,7 +7,7 @@
     /* border-radius: 10px !important; */
     overflow: hidden;
     margin-top: 50px !important;
-    /* background: rgba(218, 218, 163, 0.205) !important; */
+    /* background: rgba(60, 108, 167, 0.205) !important; */
     border: 4px solid rgba(73, 244, 184, 0.913);
     border: 4px solid rgb(68, 54, 139);
     border: 1px solid black;
@@ -19,6 +19,8 @@
 
     height: auto;
     padding-bottom: 20px;
+    /* background: rgba(151, 241, 243, 0.055); */
+    /* background: yellow; */
     
 
 }

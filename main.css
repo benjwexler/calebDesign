@@ -34,13 +34,14 @@ body {
 
 #section1 {
 
-    height: 100vh;
+    height: 95vh;
     width: 100%;
-    background-image: url("calebPlayingGuitar1.jpg");
+    background-image: url("pics/calebPlayingGuitar1.jpg");
+    
     object-fit: cover;
 
     background-repeat: no-repeat;
-    background: url("calebPlayingGuitar1.jpg") no-repeat center center fixed; 
+    background: url("pics/calebPlayingGuitar1.jpg") no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -83,8 +84,9 @@ body {
     width: 100%;
     /* border: 2px solid black; */
     /* background-image: linear-gradient(white, rgba(63, 25, 199, 0.432)); */
-    background-image: linear-gradient(white, rgba(48, 199, 197, 0.418) 25% );
+    /* background-image: linear-gradient(white, rgba(48, 199, 197, 0.418) 25% ); */
     /* overflow: hidden; */
+    /* background: black; */
 
      
 }
