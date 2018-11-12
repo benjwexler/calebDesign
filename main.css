@@ -119,24 +119,7 @@ body {
    
 }
 
-#section3 {
-    height: auto;
-    width: 100%;
-}
 
-#section3title {
-    /* padding-top: 20px; */
-    width: 100%;
-    /* height: 20%; */
-    background: white;
-    background: black;
-    /* color: black; */
-    color:  white;
-    text-align: center;
-    font-size: 40px;
-    margin-top: 50px;
-   
-}
 
 @media only screen and (max-height: 880px) {
     #section1 {
@@ -154,4 +137,10 @@ body {
         /* height: 85vh; */
     }
 
+}
+
+#tutorialSection {
+    height: auto;
+    width: 100%;
+    margin: auto;
 }
