@@ -91,3 +91,5 @@ function scrollIt(destination, duration = 200, easing = 'linear', callback) {
   }
 
 document.querySelector('#latestReleasesLink').addEventListener('click', () => scrollIt(document.getElementById("section2")));
+
+document.querySelector('#drumMachineLink').addEventListener('click', () => scrollIt(document.getElementById("drumMachineSection")));
