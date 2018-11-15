@@ -6,6 +6,7 @@
     height: auto;
     width: 100%;
     padding-bottom: 50px;
+    
 }
 
 
@@ -32,6 +33,7 @@
     border: 2px solid black;
     margin-top: 50px; 
     background: rgba(128, 128, 128, 0.31);
+
     
     /* box-shadow: 4px 4px rgba(0, 0, 0, 0.815) */
     
@@ -72,6 +74,8 @@
     -o-background-size: cover;
     background-size: cover;
     overflow: hidden;
+     /* background: rgba(0, 187, 255, 0.009); */
+   
     /* border: 1px solid black; */
     
 }
@@ -79,6 +83,7 @@
 #drumMachineLeftTop {
     width: 100%;
     height: 70%;
+    margin-bottom: 15px;
     /* margin: auto; */
 }
 
@@ -87,8 +92,9 @@
     height: 80%;
     margin: auto;
     margin-top: 80px; 
+    /* margin-top: 20px; */
     
-    border-radius: 50%;
+    /* border-radius: 50%; */
     
      /* background-image: url("pics/beatTape18Caleb.jpg");
      -webkit-background-size: cover;
@@ -99,18 +105,63 @@
    
 }
 
+#packsGallery {
+    width: 100%;
+    margin: auto;
+    height: 89%;
+    /* border: 1px solid black; */
+    text-align: center;
+    box-sizing: border-box;
+    /* opacity: .6; */
+    display: flex;
+    padding: 0 20px;
+
+
+    
+}
+
+.galleryImageContainer {
+    width: 33.33%;
+    height: 50%;
+   
+    display: flex; 
+    
+    opacity: .3;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.galleryImage {
+    width: 80%;
+    height: 90%;
+    background: url("pics/kermitCoverArt.jpg");
+    /* object-fit: cover; */
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    margin: auto;
+    /* border: 1px solid rgba(0, 0, 0, 0.582); */
+    
+   
+}
+
 #soundPackImage{
     width: 100%;
     height: 100%;
     border: 2px solid black;
     border-radius: 3%;
+    /* border-radius: 50%; */
+    
 }
 #drumMachineLeftBottom {
     width: 100%;
     height: 30%;
     background: white;
     background: rgb(216, 216, 216);
-    
+    /* border-top: 1px solid black; */
+    margin-top: -50px;
+  
 }
 
 #drumMachineRightMain {
