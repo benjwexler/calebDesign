@@ -6,6 +6,18 @@
     height: auto;
     width: 100%;
     padding-bottom: 50px;
+    /* background: linear-gradient(207deg, rgba(71, 109, 204, 0.543), rgb(255, 255, 255)), url('pics/calebStanRogersFolkFestival.jpg'); */
+    /* background: rgba(255, 255, 255, 0.39); */
+    /* background: rgba(71, 109, 204, 0.954); */
+    background-repeat: no-repeat;
+    /* background: url("/Users/bwexler/Desktop/calebSoundsStyle/pics/woodAcousticGuitarsBG.jpg") no-repeat center center fixed;  */
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    margin: auto;
+    /* -webkit-filter: grayscale(40%);
+    filter: grayscale(40%); */
     
 }
 
@@ -35,7 +47,10 @@
     background: rgba(128, 128, 128, 0.31);
 
     
-    /* box-shadow: 4px 4px rgba(0, 0, 0, 0.815) */
+    box-shadow: 4px 2px rgba(0, 0, 0, 0.815);
+    border-bottom-right-radius: 1%;
+   
+    /* border-top-right-radius: .3%; */
     
 }
 
@@ -43,7 +58,7 @@
     height: 10%;
     width: 100%;
     border: 1px solid black;
-    box-shadow: 3px 1px rgb(0, 0, 0);
+    /* box-shadow: 6px -2px rgb(0, 0, 0); */
     outline-offset: -1px;
     background: white;
     display: flex;
@@ -63,6 +78,8 @@
     /* background: rgba(128, 128, 128, 0.31); */
     box-shadow: 3px 1px rgb(0, 0, 0);
     padding-right: 8px;
+    /* background: rgb(255, 255, 255); */
+
 }
 
 #drumMachineLeftMain {

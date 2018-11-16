@@ -57,6 +57,7 @@ body {
     font-size: 20px;
     /* width: 50%;
     border: 1px solid black; */
+    cursor: pointer !important;
    
 }
 
@@ -144,8 +145,14 @@ body {
     /* overflow: hidden; */
     /* background: black; */
     /* background-image: url("pics/woodAcousticGuitarsBG.jpg"); */
-    
+    /* background: linear-gradient(rgba(255, 255, 255, 0.527), white), url('pics/calebStoicRedLight.jpg'); */
+    /* background: linear-gradient(rgba(111, 110, 110, 0.411)('pics/calebStoicRedLight.jpg') ; */
     object-fit: cover;
+    background: linear-gradient(rgb(133, 70, 70), rgba(31, 167, 31, 0.6)), url('pics/calebStoicRedLight.jpg');
+    background: linear-gradient(rgba(208, 206, 206, 0.493), rgba(60, 199, 233, 0.6)), url('pics/calebStoicRedLight.jpg');
+    background: linear-gradient(rgba(0, 0, 0, 0.817), white), url('pics/calebStoicRedLight.jpg');
+    background: linear-gradient(207deg, rgba(71, 109, 204, 0.76), rgba(255, 255, 255, 0.479)), url('pics/calebStoicRedLight.jpg');
+    /* background: rgba(255, 255, 255, 0.39); */
 
     background-repeat: no-repeat;
     /* background: url("/Users/bwexler/Desktop/calebSoundsStyle/pics/woodAcousticGuitarsBG.jpg") no-repeat center center fixed;  */
@@ -154,8 +161,9 @@ body {
     -o-background-size: cover;
     background-size: cover;
     margin: auto;
-    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    -webkit-filter: grayscale(40%);
     filter: grayscale(40%);
+    background: linear-gradient(207deg, rgba(71, 109, 204, 0.543), rgb(255, 255, 255)), url('pics/calebStanRogersFolkFestival.jpg');
 
      
 }
