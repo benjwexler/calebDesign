@@ -1,62 +1,62 @@
-var widgetIframe = document.getElementById('sc-widget'),
-  widget1 = SC.Widget(widgetIframe);
+// var widgetIframe1 = document.getElementById('sc-widget1'),
+//   widget1 = SC.Widget(widgetIframe1);
 
-widget1.bind(SC.Widget.Events.READY, function () {
-  console.log("Yjefnifr")
+// widget1.bind(SC.Widget.Events.READY, function () {
+//   console.log("Yjefnifr")
 
-  widget1.getVolume(function (volume) {
-    console.log('current volume value is ' + volume);
-  });
+//   widget1.getVolume(function (volume) {
+//     console.log('current volume value is ' + volume);
+//   });
 
-  widget1.setVolume(100);
-
-
-});
-
-var widgetIframe2 = document.getElementById('sc-widget2'),
-  widget2 = SC.Widget(widgetIframe2);
-
-widget2.bind(SC.Widget.Events.READY, function () {
-  console.log("Yjefnifr")
-
-  widget2.getVolume(function (volume) {
-    console.log('current volume value is ' + volume);
-  });
-
-  widget2.setVolume(100);
+//   widget1.setVolume(100);
 
 
-});
+// });
 
-var widgetIframe3 = document.getElementById('sc-widget3'),
-  widget3 = SC.Widget(widgetIframe3);
+// var widgetIframe2 = document.getElementById('sc-widget2'),
+//   widget2 = SC.Widget(widgetIframe2);
 
-widget3.bind(SC.Widget.Events.READY, function () {
-  console.log("Yjefnifr")
+// widget2.bind(SC.Widget.Events.READY, function () {
+//   console.log("Yjefnifr")
 
-  widget3.getVolume(function (volume) {
-    console.log('current volume value is ' + volume);
-  });
+//   widget2.getVolume(function (volume) {
+//     console.log('current volume value is ' + volume);
+//   });
 
-  widget3.setVolume(100);
-
-
-});
-
-var widgetIframe4 = document.getElementById('sc-widget4'),
-  widget4 = SC.Widget(widgetIframe4);
-
-widget4.bind(SC.Widget.Events.READY, function () {
-  console.log("Yjefnifr")
-
-  widget4.getVolume(function (volume) {
-    console.log('current volume value is ' + volume);
-  });
-
-  widget4.setVolume(100);
+//   widget2.setVolume(100);
 
 
-});
+// });
+
+// var widgetIframe3 = document.getElementById('sc-widget3'),
+//   widget3 = SC.Widget(widgetIframe3);
+
+// widget3.bind(SC.Widget.Events.READY, function () {
+//   console.log("Yjefnifr")
+
+//   widget3.getVolume(function (volume) {
+//     console.log('current volume value is ' + volume);
+//   });
+
+//   widget3.setVolume(100);
+
+
+// });
+
+// var widgetIframe4 = document.getElementById('sc-widget4'),
+//   widget4 = SC.Widget(widgetIframe4);
+
+// widget4.bind(SC.Widget.Events.READY, function () {
+//   console.log("Yjefnifr")
+
+//   widget4.getVolume(function (volume) {
+//     console.log('current volume value is ' + volume);
+//   });
+
+//   widget4.setVolume(100);
+
+
+// });
 
 
 
@@ -137,10 +137,28 @@ if (currentTrack === undefined) {
 //  document.getElementById("soundcloud").addEventListener("load", playSound);
 
 let tracks = document.getElementsByClassName("playAndPauseIcon")
-
+let soundcloudWidget
 for (let i = 0; i < tracks.length; i++) {
   window[`track${i + 1}`] = tracks[i]
-  window[`track${i + 1}counter`] = 0
+  window[`track${i + 1}counter`] = 0;
+  // window[`widgetIframe${i+1}`]
+  soundcloudWidget  = document.getElementById(`sc-widget${i+1}`)
+  window[`widget${i+1}`] = SC.Widget(soundcloudWidget);
+  console.log(soundcloudWidget)
+
+  window[`widget${i+1}`].bind(SC.Widget.Events.READY, function () {
+  console.log("Yjefnifr")
+
+  // widget1.getVolume(function (volume) {
+  //   console.log('current volume value is ' + volume);
+  // });
+
+  // widget1.setVolume(100);
+
+
+});
+
+  
   
   window[`track${i + 1}`].addEventListener("click", playSound)
 
