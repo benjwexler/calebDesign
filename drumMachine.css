@@ -6,6 +6,19 @@
     height: auto;
     width: 100%;
     padding-bottom: 50px;
+    /* background: linear-gradient(207deg, rgba(71, 109, 204, 0.543), rgb(255, 255, 255)), url('pics/calebStanRogersFolkFestival.jpg'); */
+    /* background: rgba(255, 255, 255, 0.39); */
+    /* background: rgba(71, 109, 204, 0.954); */
+    background-repeat: no-repeat;
+    /* background: url("/Users/bwexler/Desktop/calebSoundsStyle/pics/woodAcousticGuitarsBG.jpg") no-repeat center center fixed;  */
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    margin: auto;
+    /* -webkit-filter: grayscale(40%);
+    filter: grayscale(40%); */
+    
 }
 
 
@@ -31,6 +44,13 @@
     margin: auto;
     border: 2px solid black;
     margin-top: 50px; 
+    background: rgba(128, 128, 128, 0.31);
+
+    
+    box-shadow: 4px 2px rgba(0, 0, 0, 0.815);
+    border-bottom-right-radius: 1%;
+   
+    /* border-top-right-radius: .3%; */
     
 }
 
@@ -38,8 +58,16 @@
     height: 10%;
     width: 100%;
     border: 1px solid black;
-    box-shadow: 3px 1px rgb(0, 0, 0);
+    /* box-shadow: 6px -2px rgb(0, 0, 0); */
     outline-offset: -1px;
+    background: white;
+    display: flex;
+    /* flex-direction: column; */
+}
+.btn {
+    /* background: rgba(45, 51, 221, 0.747) !important; */
+    /* margin: auto !important; */
+    background: rgb(0, 179, 255) !important;
 }
 
 #drumMachineMainContainer {
@@ -47,21 +75,120 @@
     width: 100%;
     border: 1px solid black;
     display: flex;
-    background: rgba(128, 128, 128, 0.31);
+    /* background: rgba(128, 128, 128, 0.31); */
     box-shadow: 3px 1px rgb(0, 0, 0);
+    padding-right: 8px;
+    /* background: rgb(255, 255, 255); */
+
 }
 
 #drumMachineLeftMain {
     width: 50%;
     height: 100%;
-    border: 1px solid black;
+    /* background-image: url("pics/beatTape18Caleb.jpg"); */
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    overflow: hidden;
+     /* background: rgba(0, 187, 255, 0.009); */
+   
+    /* border: 1px solid black; */
     
+}
+
+#drumMachineLeftTop {
+    width: 100%;
+    height: 70%;
+    margin-bottom: 15px;
+    /* margin: auto; */
+}
+
+#soundPackImageContainer {
+    width: 60%;
+    height: 80%;
+    margin: auto;
+    margin-top: 80px; 
+    /* margin-top: 20px; */
+    
+    /* border-radius: 50%; */
+    
+     /* background-image: url("pics/beatTape18Caleb.jpg");
+     -webkit-background-size: cover;
+     -moz-background-size: cover;
+     -o-background-size: cover;
+     background-size: cover;
+     object-fit: cover; */
+   
+}
+
+#packsGallery {
+    width: 100%;
+    margin: auto;
+    height: 89%;
+    /* border: 1px solid black; */
+    text-align: center;
+    box-sizing: border-box;
+    /* opacity: .6; */
+    display: flex;
+    padding: 0 20px;
+
+
+    
+}
+
+.galleryImageContainer {
+    width: 33.33%;
+    height: 50%;
+   
+    display: flex; 
+    
+    opacity: .3;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.galleryImage {
+    width: 80%;
+    height: 90%;
+    background: url("pics/kermitCoverArt.jpg");
+    /* object-fit: cover; */
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    margin: auto;
+    /* border: 1px solid rgba(0, 0, 0, 0.582); */
+    
+   
+}
+
+#soundPackImage{
+    width: 100%;
+    height: 100%;
+    border: 2px solid black;
+    border-radius: 3%;
+    /* border-radius: 50%; */
+    
+}
+#drumMachineLeftBottom {
+    width: 100%;
+    height: 30%;
+    background: white;
+    background: rgb(216, 216, 216);
+    /* border-top: 1px solid black; */
+    margin-top: -50px;
+  
 }
 
 #drumMachineRightMain {
     width: 50%;
     height: 100%;
-    border: 1px solid black;
+    border-left: 3px solid black;
+    border-right: 0px;
+    border-top: 0px;
+    border-bottom: 0px;
+    
     
 }
 
@@ -70,6 +197,13 @@
     width: 100%;
     border: 1px solid black;
     box-shadow: 3px 1px rgb(0, 0, 0);
+    background: white;
+    
+}
+
+#shoppingCartOuterContainer {
+    /* width: auto; */
+    margin: auto;
 }
 
 .padRow {
@@ -77,15 +211,17 @@
     height: 25%;
     /* border: 1px solid black; */
     display: flex;
+    
 }
 
 .padContainer {
     width: 25%;
     height: 100%;
+    
     /* border: 1px solid black; */
     display: flex;
     flex-direction: column;
-    background: rgba(128, 128, 128, 0.31);
+    /* background: rgba(128, 128, 128, 0.31); */
     padding-left: 10px;
     padding-right: 5px;
     padding-bottom: 10px;
@@ -96,14 +232,22 @@
     height: 18%;
     width: 100%;
     border: 0px solid black;
+    font-size: 12px;
 }
 .pad {
     height: 82%;
     width: 100%;
     /* border: 5px solid black; */
-    border: 5px solid #8080804f;
+    border: 8px solid #8080804f;
+    /* border: 5px solid #808080;
+    border: 5px solid #935f7e; */
+    /* border: 5px solid #9677a0; */
     background: rgba(105, 53, 131, 0.753);
+    background: rgba(149, 57, 194, 0.753);
     padding: 5px;
+    border-radius: 5%;
+    box-shadow: 3px 3px rgba(0, 0, 0, 0.815);
+    /* outline:    5px solid black; */
     
 }
 
