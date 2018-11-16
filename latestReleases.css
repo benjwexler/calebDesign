@@ -23,10 +23,71 @@
     /* background: yellow; */
     margin-bottom: 50px !important;
     font-family: 'Shadows Into Light' !important;
+    display: relative;
 
     
 
 }
+
+.playIcon {
+  
+    position: absolute;
+    left: 52%;
+    top: 47%;
+    
+    /*
+    Nope =(
+    margin-left: -25%;
+    margin-top: -25%;
+    */
+  
+    /* 
+    Yep!
+    */
+    transform: translate(-50%, -50%);
+    /* border: 2px solid yellow; */
+    /* height: 40px;
+    width: 40px; */
+}
+
+.fa-play {
+    color: yellow !important;
+    color: grey !important;
+
+    opacity: 2;
+    margin: auto;  
+   
+} 
+
+/* #playAndPauseIcon {
+    color: grey !important;
+    color: rgb(222, 220, 220) !important;
+    
+    opacity: .7 !important;
+    
+} */
+
+.playAndPauseIcon {
+    color: rgb(222, 220, 220) !important;
+    opacity: .7 !important;
+}
+
+.playAndPauseIcon:hover {
+    opacity: 1 !important;
+    /* color: black !important; */
+    color: white !important;
+    text-shadow: 4px 4px black;
+    /* filter: invert(100%) */
+    /* color: yellow !important; */
+}
+
+/* .card-img-top:hover{
+    filter: invert(20%) 
+    
+} */
+/* #playAndPauseIcon2 {
+    color: grey !important;
+} */
 
 
 
@@ -37,6 +98,8 @@
     border-radius: 50%;
     margin: auto;
     margin-top: 5px !important;
+    /* opacity: .5; */
+    /* z-index: -9; */
 }
 
 .cdSide{

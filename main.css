@@ -9,6 +9,20 @@ body {
     /* font-family: 'Orbitron' !important;  */
 }
 
+#soundCloudEmbed {
+    width: 200px;
+    height: 200px;
+}
+
+.soundclouds {
+    display: none;
+}
+
+#sc-widget {
+    display: none;
+    border-radius: 50% !important;
+}
+
 .nav-link {
     cursor: pointer !important;
     letter-spacing: 1px; 
