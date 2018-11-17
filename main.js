@@ -94,8 +94,29 @@ document.querySelector('#latestReleasesLink').addEventListener('click', () => sc
 
 document.querySelector('#drumMachineLink').addEventListener('click', () => scrollIt(document.getElementById("drumMachineSection")));
 
+// function remove padDown() {
+  
+//   pad.classList.add("padDown")
 
+// }
 
+function padDown() {
+  console.log(this.id)
+  let pad = this.id
+  pad = document.getElementById(pad)
+  pad.classList.add("padDown")
+
+  setTimeout(function(){ 
+    pad.classList.remove("padDown")
+  }, 80);
+}
+
+let pads = document.getElementsByClassName("pad")
+
+for(let i=0; i<pads.length; i++)  {
+  pads[i].id = `pad${i+1}`
+  pads[i].addEventListener('click', padDown)
+}
 
 
 
