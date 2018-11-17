@@ -251,6 +251,31 @@
     
 }
 
+@keyframes padDown {
+    0% {
+        box-shadow: 3px 3px rgba(0, 0, 0, 0.815);
+        border: 8px solid #8080804f;
+    }
+
+    60% {
+        box-shadow: 0px 0px rgba(0, 0, 0, 0.815);
+        border: 0px solid #8080804f;
+    }
+   
+    100% {
+        box-shadow: 2px 2px rgba(0, 0, 0, 0.815);
+        border: 6px solid #8080804f;
+    }
+  }
+  
+  /* .pad:hover {
+     animation: padDown 300ms 1;
+  } */
+
+  .padDown {
+    animation: padDown 80ms 1; 
+  }
+
 #drumMachineLogo {
     /* display: none; */
      background: yellow;
