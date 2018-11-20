@@ -34,10 +34,14 @@ function soundPackImage() {
 
 }
 
+
+// constructor for linked list
 function LinkedList() {
     this.head = null;
     this.tail = null;
 }
+
+// constructor for new node being added
 function Node(value, next, prev) {
     this.value = value;
     this.next = next;
@@ -45,8 +49,8 @@ function Node(value, next, prev) {
 }
 
 LinkedList.prototype.addToHead = function (value) {
-    const newNode = new Node(value, this.head, null);
-    if (this.head) this.head.prev = newNode;
+    const newNode = new Node(value, this.head, null);  
+    if (this.head) this.head.prev = newNode; //if
     else this.tail = newNode;
     this.head = newNode;
 };
@@ -69,11 +73,7 @@ let coverArtArr = [
 ]
 
 for (let i = 0; i < coverArtArr.length; i++) {
-    if (i === 0) {
-        list.addToHead(coverArtArr[i])
-    } else {
-        list.addToTail(coverArtArr[i]);
-    }
+    list.addToTail(coverArtArr[i]);
 }
 
 list.head.prev = list.tail
