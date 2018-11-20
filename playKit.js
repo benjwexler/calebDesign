@@ -44,6 +44,8 @@ document.addEventListener("DOMContentLoaded", function () {
 
 if (context.state === 'suspended' && 'ontouchstart' in window)
 {
+
+    console.log("WEBKIT - SAFARI")
     var unlock = function()
     {
         context.resume();
