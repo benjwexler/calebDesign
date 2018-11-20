@@ -11,7 +11,7 @@ let counterObj = {
 
 
 
-// document.addEventListener("DOMContentLoaded", function () {
+document.addEventListener("DOMContentLoaded", function () {
 
     let pads = document.getElementsByClassName("pad")
 
@@ -40,6 +40,20 @@ let counterObj = {
 
 
     let firstPlayCounter;
+
+
+if (context.state === 'suspended' && 'ontouchstart' in window)
+{
+
+    console.log("WEBKIT - SAFARI")
+    var unlock = function()
+    {
+        context.resume();
+    };
+
+    document.body.addEventListener('touchstart', unlock, false);
+}
+
 
     var context = new window.AudioContext || window.webkitAudioContext;
 	console.log(context);
@@ -100,4 +114,4 @@ let counterObj = {
 
 
 
-
+});
