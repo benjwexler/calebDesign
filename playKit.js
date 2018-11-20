@@ -42,7 +42,12 @@ document.addEventListener("DOMContentLoaded", function () {
     let firstPlayCounter;
 
 
-if (context.state === 'suspended' && 'ontouchstart' in window)
+
+
+
+    var context = new window.AudioContext || window.webkitAudioContext;
+
+    if (context.state === 'suspended' && 'ontouchstart' in window)
 {
 
     console.log("WEBKIT - SAFARI")
@@ -53,9 +58,6 @@ if (context.state === 'suspended' && 'ontouchstart' in window)
 
     document.body.addEventListener('touchstart', unlock, false);
 }
-
-
-    var context = new window.AudioContext || window.webkitAudioContext;
 	console.log(context);
     var gainNode = context.createGain();
     
