@@ -93,30 +93,42 @@ function scrollIt(destination, duration = 200, easing = 'linear', callback) {
 document.querySelector('#latestReleasesLink').addEventListener('click', () => scrollIt(document.getElementById("section2")));
 
 document.querySelector('#drumMachineLink').addEventListener('click', () => scrollIt(document.getElementById("drumMachineSection")));
-
-// function remove padDown() {
-  
+ 
+// function padDown() {
+//   console.log(this.id)
+//   let pad = this.id
+//   pad = document.getElementById(pad)
 //   pad.classList.add("padDown")
 
+
+//   setTimeout(function(){ 
+//     pad.classList.remove("padDown")
+//   }, 80);
+
+//   counterObj[`newPadCounter${this.id}`]++
 // }
 
-function padDown() {
-  console.log(this.id)
-  let pad = this.id
-  pad = document.getElementById(pad)
-  pad.classList.add("padDown")
+// let pads = document.getElementsByClassName("pad")
 
-  setTimeout(function(){ 
-    pad.classList.remove("padDown")
-  }, 80);
-}
+// let counterObj = {	
+// };
 
-let pads = document.getElementsByClassName("pad")
+// for(var i=1; i<=16; i++) {
+//     counterObj[`newPadCounterpad${i}`] = 0;
+// }
 
-for(let i=0; i<pads.length; i++)  {
-  pads[i].id = `pad${i+1}`
-  pads[i].addEventListener('click', padDown)
-}
+// function increasePadCounter() {
+    
+// }
+
+// for(let i=0; i<pads.length; i++)  {
+//   pads[i].id = `pad${i+1}`
+//   pads[i].addEventListener('click', padDown)
+//   counterObj['newPadCounter'+(i+1)] = 0;
+// }
+
+
+
 
 
 

@@ -60,6 +60,10 @@ LinkedList.prototype.addToTail = function (value) {
 
 const list = new LinkedList();
 
+
+
+
+
 let coverArtArr = [
     "pics/beatTape18Caleb.jpg", "pics/c'estYesCoverArt.jpg", "pics/kermitCoverArt.jpg", "pics/tributeCoverArtCalb.jpg", "pics/calebStoicRedLight.jpg", "pics/beatTape18Caleb.jpg", "pics/c'estYesCoverArt.jpg", "pics/kermitCoverArt.jpg", "pics/tributeCoverArtCalb.jpg", "pics/guitarLogo.png"
 ]
@@ -104,8 +108,34 @@ function nextPic() {
 }
 
 
+// localStorage.list = list
 
+// localStorage.setItem('list', list);
+
+// var stringify = require('json-stringify-safe');
+
+// var circularObj = {};
+// list.circularRef = list;
+// list.list = [ list, list ];
+// console.log(stringify(list, null, 2));
+
+// JSON.stringify(list)
+
+// localStorage.setItem('list', JSON.stringify(list));
+// var localStorageList = JSON.parse(localStorage.getItem('list'));
+
+// console.log(localStorageList)
 
 document.getElementById("nextBtn").addEventListener("click", nextPic)
 document.getElementById("prevBtn").addEventListener("click", nextPic)
+
+// 'use strict';
+
+// var CircularJSON = window.CircularJSON
+//   , obj = { foo: 'bar' }
+//   , str
+//   ;
+  
+// obj.self = obj;
+// str = CircularJSON.stringify(obj);
 
