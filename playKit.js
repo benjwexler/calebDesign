@@ -41,7 +41,7 @@ let counterObj = {
 
     let firstPlayCounter;
 
-    var context = new window.AudioContext;
+    var context = new window.AudioContext || window.webkitAudioContext;
 	console.log(context);
     var gainNode = context.createGain();
     
