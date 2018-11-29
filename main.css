@@ -96,7 +96,7 @@ body {
     object-fit: cover;
 
     background-repeat: no-repeat;
-    /* background: url("pics/calebPlayingGuitar1.jpg") no-repeat center center fixed;  */
+    background: url("pics/calebPlayingGuitar1.jpg") no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -107,20 +107,7 @@ body {
  
 }
 
-#section1:after{
-    content:"";
-    position:fixed; /* stretch a fixed position to the whole screen */
-    top:0;
-    height:95vh; /* fix for mobile browser address bar appearing disappearing */
-    left:0;
-    right:0;
-    z-index:-1; /* needed to keep in the background */
-    background: url("pics/calebPlayingGuitar1.jpg") center center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-}
+
 
 .section1row {
     height: 25%;
@@ -219,4 +206,26 @@ body {
     height: auto;
     width: 100%;
     margin: auto;
+}
+
+@media only screen and (max-width: 414px) {
+    #section1:after{
+        content:"";
+        position:fixed; /* stretch a fixed position to the whole screen */
+        top:0;
+        height:95vh; /* fix for mobile browser address bar appearing disappearing */
+        left:0;
+        right:0;
+        z-index:-1; /* needed to keep in the background */
+        background: url("pics/calebPlayingGuitar1.jpg") center center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+
+    #section1 {
+        background: none;
+    }
+
 }
